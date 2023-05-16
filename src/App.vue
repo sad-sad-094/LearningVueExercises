@@ -1,16 +1,19 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <ToDoList />
+  <!-- <ToDoList /> -->
+  <ListsExercise />
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue';
-import ToDoList from './components/ToDoList.vue';
+// import ToDoList from './components/ToDoList.vue';
+import ListsExercise from './components/ListsExercise.vue';
 
 export default {
   name: 'App',
   components: {
-    ToDoList,
+    // ToDoList,
+    ListsExercise,
   }
 }
 </script>

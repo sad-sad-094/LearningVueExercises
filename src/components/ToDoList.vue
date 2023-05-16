@@ -4,7 +4,7 @@ E-mail: sadw621@gmail.com -->
 
 <script>
 export default {
-  name: 'toDo List',
+  name: 'toDo-List',
   data() {
     return {
       newTask: '',
