@@ -2,34 +2,46 @@
 E-mail: sadw621@gmail.com -->
 
 
-<template>
-  <div class="app">
-    <form action="">
-      <input type="text" name="value" id="value">
-      <input type="submit" value="Guardar">
-
-    </form>
-    <hr>
-    <ul>
-
-    </ul>
-  </div>
-</template>
-
 <script>
-
 export default {
   name: 'toDo List',
-  data: {
-    newTask: '',
-    tasks: [],
+  data() {
+    return {
+      newTask: '',
+      tasks: [
+        'Aprender Vue', 'Aprender Pinia'
+      ],
+    }
 
   },
   methods: {
     saveTask() {
-      this.tasks.push(this.newTask)
+      this.tasks.push(this.newTask);
+      this.newTask = '';
     }
-  }
+  },
+  computed: {
+
+  },
 }
 
 </script>
+
+<template>
+  <div class="app">
+    <form action="" v-on:submit.prevent="saveTask">
+      <input v-model="newTask" type="text" name="value" id="value">
+      <input type="submit" value="Guardar">
+    </form>
+    <hr>
+    <ul>
+      <li v-for="(task, index) in tasks" v-bind:key="index" id="task">
+        {{ task }} Hola
+      </li>
+    </ul>
+  </div>
+</template>
+      
+
+
+
