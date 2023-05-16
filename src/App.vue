@@ -1,19 +1,23 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <!-- <ToDoList /> -->
-  <ListsExercise />
+  <!-- <ListsExercise /> -->
+  <EventsExercise />
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue';
 // import ToDoList from './components/ToDoList.vue';
-import ListsExercise from './components/ListsExercise.vue';
+// import ListsExercise from './components/ListsExercise.vue';
+import EventsExercise from './components/EventsExercise.vue';
+
 
 export default {
   name: 'App',
   components: {
     // ToDoList,
-    ListsExercise,
+    // ListsExercise,
+    EventsExercise,
   }
 }
 </script>
