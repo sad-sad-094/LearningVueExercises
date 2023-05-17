@@ -6,7 +6,8 @@
   <!-- <WatchersExercise /> -->
   <!-- <ConditionalRendering /> -->
   <!-- <FiltersExercise /> -->
-  <AjaxExercise />
+  <!-- <AjaxExercise /> -->
+  <DataBindingwStyles />
 </template>
 
 <script>
@@ -17,7 +18,8 @@
 // import WatchersExercise from './components/WatchersExercise.vue';
 // import ConditionalRendering from './components/ConditionalRendering.vue';
 // import FiltersExercise from './components/FiltersExercise.vue';
-import AjaxExercise from './components/AjaxExercise.vue';
+// import AjaxExercise from './components/AjaxExercise.vue';
+import DataBindingwStyles from './components/DataBindingwStyles.vue';
 
 
 export default {
@@ -29,7 +31,8 @@ export default {
     // WatchersExercise,
     // ConditionalRendering,
     // FiltersExercise,
-    AjaxExercise
+    // AjaxExercise,
+    DataBindingwStyles
   }
 }
 </script>
