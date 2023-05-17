@@ -2,14 +2,16 @@
   <img alt="Vue logo" src="./assets/logo.png">
   <!-- <ToDoList /> -->
   <!-- <ListsExercise /> -->
-  <EventsExercise />
+  <!-- <EventsExercise /> -->
+  <WatchersExercise />
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue';
 // import ToDoList from './components/ToDoList.vue';
 // import ListsExercise from './components/ListsExercise.vue';
-import EventsExercise from './components/EventsExercise.vue';
+// import EventsExercise from './components/EventsExercise.vue';
+import WatchersExercise from './components/WatchersExercise.vue';
 
 
 export default {
@@ -17,7 +19,8 @@ export default {
   components: {
     // ToDoList,
     // ListsExercise,
-    EventsExercise,
+    // EventsExercise,
+    WatchersExercise
   }
 }
 </script>
