@@ -5,7 +5,8 @@
   <!-- <EventsExercise /> -->
   <!-- <WatchersExercise /> -->
   <!-- <ConditionalRendering /> -->
-  <FiltersExercise />
+  <!-- <FiltersExercise /> -->
+  <AjaxExercise />
 </template>
 
 <script>
@@ -15,7 +16,8 @@
 // import EventsExercise from './components/EventsExercise.vue';
 // import WatchersExercise from './components/WatchersExercise.vue';
 // import ConditionalRendering from './components/ConditionalRendering.vue';
-import FiltersExercise from './components/FiltersExercise.vue';
+// import FiltersExercise from './components/FiltersExercise.vue';
+import AjaxExercise from './components/AjaxExercise.vue';
 
 
 export default {
@@ -26,8 +28,9 @@ export default {
     // EventsExercise,
     // WatchersExercise,
     // ConditionalRendering,
-    FiltersExercise
-}
+    // FiltersExercise,
+    AjaxExercise
+  }
 }
 </script>
 
