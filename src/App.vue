@@ -7,7 +7,8 @@
   <!-- <ConditionalRendering /> -->
   <!-- <FiltersExercise /> -->
   <!-- <AjaxExercise /> -->
-  <DataBindingwStyles />
+  <!-- <DataBindingwStyles /> -->
+  <DataBindingwForms />
 </template>
 
 <script>
@@ -19,7 +20,8 @@
 // import ConditionalRendering from './components/ConditionalRendering.vue';
 // import FiltersExercise from './components/FiltersExercise.vue';
 // import AjaxExercise from './components/AjaxExercise.vue';
-import DataBindingwStyles from './components/DataBindingwStyles.vue';
+// import DataBindingwStyles from './components/DataBindingwStyles.vue';
+import DataBindingwForms from './components/DataBindingwForms.vue';
 
 
 export default {
@@ -32,8 +34,9 @@ export default {
     // ConditionalRendering,
     // FiltersExercise,
     // AjaxExercise,
-    DataBindingwStyles
-  }
+    // DataBindingwStyles,
+    DataBindingwForms
+}
 }
 </script>
 
