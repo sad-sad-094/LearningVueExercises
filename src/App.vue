@@ -3,7 +3,8 @@
   <!-- <ToDoList /> -->
   <!-- <ListsExercise /> -->
   <!-- <EventsExercise /> -->
-  <WatchersExercise />
+  <!-- <WatchersExercise /> -->
+  <ConditionalRendering />
 </template>
 
 <script>
@@ -11,7 +12,8 @@
 // import ToDoList from './components/ToDoList.vue';
 // import ListsExercise from './components/ListsExercise.vue';
 // import EventsExercise from './components/EventsExercise.vue';
-import WatchersExercise from './components/WatchersExercise.vue';
+// import WatchersExercise from './components/WatchersExercise.vue';
+import ConditionalRendering from './components/ConditionalRendering.vue';
 
 
 export default {
@@ -20,8 +22,9 @@ export default {
     // ToDoList,
     // ListsExercise,
     // EventsExercise,
-    WatchersExercise
-  }
+    // WatchersExercise,
+    ConditionalRendering
+}
 }
 </script>
 
