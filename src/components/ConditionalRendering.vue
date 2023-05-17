@@ -4,7 +4,7 @@ E-mail: sadw621@gmail.com -->
 
 <template>
   <div class='app'>
-    <form>
+    <form v-on:submit.prevent="saveData">
 
       <label for="name">Nombre</label>
       <input type="text" name="name" id="name" placeholder="Introduzca su nombre" v-model="name">
@@ -44,7 +44,7 @@ export default {
       adress: '',
       paymentAdress: '',
       check: false,
-
+      data: {},
     }
   },
   methods: {
@@ -53,6 +53,14 @@ export default {
     },
     adrees() {
       this.paymentAdress = this.newAdress;
+    },
+    saveData() {
+      this.data = {
+        name: this.name,
+        lastName: this.lastName,
+        adress: this.adress,
+        paymentAdress: this.paymentAdress,
+      };
     }
   },
   computed: {
